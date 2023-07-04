@@ -1,0 +1,24 @@
+.wrapper {
+    max-width: 70rem;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  
+    display: grid;
+    grid-template-columns: 256px 1fr;
+    gap: 2rem;
+    align-items: flex-start;
+  }
+
+  @media (max-width: 768px) {
+    html {
+      font-size: 87.5%;
+    }
+  
+    .wrapper {
+      grid-template-columns: 1fr;
+    }
+  }
+/* auto para centralizar na tela*/
+/* padding 1 rem - se diminuir nao ficar colado nas laterais*/
+/* display grid nos permite trabalhar em duas dimensiones - linhas e colunas */
+/* grid-template-columns - define o total de colunas*/
